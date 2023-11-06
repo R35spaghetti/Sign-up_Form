@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    padding: 50px;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+#formText {
+    font-size: larger;
+    font-weight: bold;
+}
+
+#textBelowCreateAccountButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction1 {
+    width: 50%;
+}
+
+.banner {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 25em;
+    height: 100%;
+    background-size: cover;
+}
+
+.background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.overlay-image {
+    position: absolute;
+    width: 100%;
+    top: 400px;
+    opacity: 0.5;
+}
+
+.formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 20px rgba(143, 76, 76, 0.6);
+
+}
+
+.formRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.leftSide,
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+
+}
+
+.leftSide label,
+.rightSide label {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.leftSide input,
+.rightSide input {
+    margin-bottom: 10px;
+    width: 100%;
+
+
+}
+
+
+#createAccountButton {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}

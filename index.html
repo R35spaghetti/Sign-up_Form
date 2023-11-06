@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="banner">
+    <img class="background-image" src="/Images/hostlov.png" alt="autumn leaves">
+    <img class="overlay-image" src="/Images/logotyp.png" alt="logotype">
+</div>
+
+<div class="container">
+
+    <div class="introduction1">
+        <div>
+            This is not a real online service!
+            You know you need something like this in your life to help realize your deepest dreams.
+        </div>
+        <div>
+            Sign up now to get started.
+        </div>
+
+    </div>
+    <p>You know you want to.</p>
+</div>
+<div class="formContainer">
+    <form>
+        <div id="formText">
+            <p>Let's do this!</p>
+        </div>
+        <div class="formRow">
+            <div class="leftSide">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" required>
+            </div>
+            <div class="rightSide">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" required>
+            </div>
+        </div>
+
+        <div class="formRow">
+            <div class="leftSide">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="rightSide">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+        </div>
+
+        <div class="formRow">
+            <div class="leftSide">
+                <label for="psw">Password</label>
+                <input type="password" id="psw" name="psw" required>
+                <span class="error" id="password_error"></span>
+            </div>
+            <div class="rightSide">
+                <label for="cpsw">Confirm Password</label>
+                <input type="password" id="cpsw" name="cpsw" required>
+            </div>
+        </div>
+    </form>
+
+
+</div>
+<div id="createAccountButton"></div>
+<p id="textBelowCreateAccountButton">Already have an account?&nbsp;<a href="">Log in</a></p>
+
+<script src="Jscript.js"></script>
+</body>
+</html>
